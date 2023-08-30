@@ -1,0 +1,28 @@
+
+.subtitle{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: end; */
+}
+ .del{
+    font-size:1.5rem;
+    cursor:pointer;
+    color:#3aafa9;
+    align-items: flex-end;
+    /* display: grid; */
+    /* align-items: end; */
+    /* place-items: center; */
+    /* justify-content: space-between; */
+    &:hover{
+        color:#17252a;
+    }
+   
+}
+.list{
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    /* margin: auto; */
+    /* align-items: center; */
+}
